@@ -1,20 +1,26 @@
-# OS cruft
 .DS_Store
 ._*
-
-# python
+*.pyc
 __pycache__/
-venv
-.venv
-archivebox/.venv
-archivebox/venv
+.mypy_cache/
+.eggs/
+tests/out/
 
-# vim
-.swp*
+# Python and Node dependencies
+venv/
+.venv/
+.docker-venv/
+node_modules/
 
-# output artifacts
-output
-output/
-data
+# Packaging artifacts
+archivebox.egg-info
+archivebox-*.tar.gz
+build/
+dist/
+
+# Data folders
 data/
-archivebox/output
+data1/
+data2/
+data3/
+output/
